@@ -36,7 +36,8 @@ version = 1.0.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,pyjnius
+# openssl is needed for SSL support in pip during build
+requirements = python3,kivy,openssl
 
 # (str) Cython version to use (< 3.0 required for pyjnius compatibility)
 # p4a.cython_version = 0.29.36
